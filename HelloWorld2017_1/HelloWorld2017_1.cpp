@@ -12,12 +12,13 @@ int main()
 {
 	using namespace boost::lambda;
 	typedef std::istream_iterator<int> in;
-
+/*
 	std::for_each(
 		in(std::cin), in(), std::cout << (_1 * 3) << " ");
 	std::cout << "Hello World!\n";
+	*/
 	std::string line;
-	boost::regex pat("^Subject: (Re: |Aw: )*(.*)");
+	boost::regex pat("^abc.*");
 
 	while (std::cin)
 	{
