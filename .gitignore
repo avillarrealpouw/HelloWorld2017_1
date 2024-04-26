@@ -1,0 +1,9 @@
+Debug/
+.vs/
+HelloWorld*/Debug
+HelloWorld*/x64
+x64/
+*.log
+*.tlog
+*.obj
+*.exe
